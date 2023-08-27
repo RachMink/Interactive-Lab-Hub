@@ -89,8 +89,9 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-
-todo: feedback??
+- What about making some sort of reminder to go back to the oven if the food needs basting or rotation?
+- What happens if you're not paying attention to the screen??
+- This would be good for people who are hard of hearing - in case they dont hear timers, it requires very little attention to remember to go back to the oven
 
 ## Part B. Act out the Interaction
 
@@ -148,13 +149,25 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![devices1 2-1](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/c8e48d6e-aca1-4054-b483-39e411335845) <br>
+![device3-1](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/543eed27-8421-43b1-9ae7-d3ca9a21ec87)
+
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+In our first rendition of the device we thought to create a 'mini desktop oven' that people can look at if they're waiting on something in the oven while working at their desk. This device would be about the size of a shoebox (easily left on a desk) and it's 'window' would be the changing light display. This device is optimal for those that spend lots of time at their desks and want a trendy, functional addition to their desktop setting.
+
+While we were sketching out the mini desktop oven the idea that someone might not be tied to their desks came up. So we decided to go with a wearable device as well. Creating a wearable mini oven would allow the user to walk around and travel while they wait on their food. We opted for an inconspicuous looking wristwatch which has oven components and who's face changes colors according to food readiness.
+
+The third design we went with is by far the most inconspicuous. We were thinking about people who live in small spaces, don't have a desk, or don't have room on their desk for a mini desktop oven. Our third design is a color light that is integrated into a lamp. As with the other designs - the color of the light changes according to how ready the food is but this time the lamp is not a standalone device and turns into a lamp as long as their is nothing in the oven. 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+
+Device 1:
+Device 2: https://drive.google.com/file/d/1017qzEFg30s_2wL0-tQM1hHyCxsl8W4d/view?usp=sharing
+Device 3:
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
