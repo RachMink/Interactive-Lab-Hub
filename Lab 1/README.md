@@ -120,7 +120,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-Overall using Tinkerbelle was pretty smooth. When setting up on the Mac device some of us needed to include `--user` in order for the `requirements.txt` to properly install with Python3. Also, we opted to use local machines rather than virtual ones.
+Overall using Tinkerbelle was pretty smooth. When setting up on a Mac device some of us needed to include `--user` in order for the `requirements.txt` to properly install with Python3. Also, we opted to use local machines rather than virtual ones.
 
 
 ## Part D. Wizard the device
@@ -165,14 +165,16 @@ The third design we went with is by far the most inconspicuous. We were thinking
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-Device 1:
-Device 2: https://drive.google.com/file/d/1017qzEFg30s_2wL0-tQM1hHyCxsl8W4d/view?usp=sharing
-Device 3:
+Device 1: https://drive.google.com/file/d/1W88U_tuE_rPT6T9hHkpZ3OsQbwEibb6V/view?usp=sharing <br>
+Device 2: https://drive.google.com/file/d/1017qzEFg30s_2wL0-tQM1hHyCxsl8W4d/view?usp=sharing <br>
+Device 3: https://drive.google.com/file/d/17V8TnNVHrqO6JiQrg880nWhypTot08kd/view?usp=sharing
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+\*\***Please indicate anyone you collaborated with on this Lab.**\*\* <br>
+The group as a whole did a great job collaborating on work and providing feedback in order to iterate through the design process smoothly. 
+Thank you to our great film creators - Jon, Adriana, and Shai! 
+Thank you Rachel for drawing the prototypes and Amando for making sure everything is inplace. 
 
-We use Dall-E plus Jon Caceres's immense Photoshop skills to create the storyboard
+Thank you OpenAI for creating Dall-E which we used to create the storyboard (+Jon's Photoshop skills)
 
 # Staging Interaction, Part 2 
 
