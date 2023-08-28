@@ -73,10 +73,10 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-_Setting:_ The kitchen and bedroom. This device is used when things are cooking or baking in a oven. <br><br>
+_Setting:_ The kitchen and any other room a person decides to go into from the kitchen - possibly a bedroom or home office. This device is used while things are cooking or baking in a oven. <br><br>
 _Players:_ The user, the oven, the food, potentially other people in the room <br><br>
-_Activity:_ Rachel puts her cake in the oven, she starts a timer for 30 minutes and then walks away into another room to do homework. She can monitor the progress of the baking cake by just looking at the display on her mini desktop oven sitting next to her in her room. When the cake is officially ready, the display turns green and Rachel knows to head back to the kitchen. The cake is cooked perfectly! <br><br>
-_Goals:_ The goal of the mini oven is to know when food is finished cooking/baking in the oven without having to physically move their ass to the oven
+_Activity:_ Rachel puts her cake in the oven, she starts a timer for 30 minutes and then walks away into another room to do homework. She can monitor the progress of the baking cake by just looking at the display on her mini desktop oven sitting next to her in her room. When the oven timer starts the display is red, when the timer is halfway through the display is yellow and when the cake is officially ready, the display turns green and Rachel knows to head back to the kitchen. The cake is cooked perfectly! <br><br>
+_Goals:_ Rachel's goal is to make a perfectly cooked cake - not too raw but not overdone, the goal of the mini oven is to keep track of timing to know when to food is finished cooking/baking without Rachel having to physically move to the oven.
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
