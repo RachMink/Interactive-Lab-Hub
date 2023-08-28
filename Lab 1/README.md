@@ -136,6 +136,7 @@ Yay! Tinkerbeller works properly!
 Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 \*\***Show the follow-up work here.**\*\*
+
 Our prototype changes color according to how much time is left in the oven - 
 - Red means not done
 - Yellow means halfway done
