@@ -2,7 +2,7 @@
 
 # Staging Interaction
 
-**COLLABORATORS: Rachel Minkowitz, Shai Aarons, Jon Caceres, Ariana Bhigroog, Amando Xu**
+**COLLABORATORS: Rachel Minkowitz(rhm256), Shai Aarons(sla88), Jon Caceres(jc3569), Ariana Bhigroog(ab2959), Amando Xu(ax45)**
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -172,7 +172,7 @@ Device 3: https://drive.google.com/file/d/17V8TnNVHrqO6JiQrg880nWhypTot08kd/view
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\* <br>
 The group as a whole did a great job collaborating on work and providing feedback in order to iterate through the design process smoothly. 
-Thank you to our great film creators - Jon, Adriana, and Shai! 
+Thank you to our great film creators - Jon, Ariana, and Shai! 
 Thank you Rachel for drawing the prototypes and Amando for making sure everything is inplace. 
 
 Thank you OpenAI for creating Dall-E which we used to create the storyboard (+Jon's Photoshop skills)
