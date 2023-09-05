@@ -278,19 +278,15 @@ Storyboard #8:<br>
 ![DEC165F0-A5D4-4726-8B41-9C66D99CE499](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/6302e84e-9108-471c-bc12-002fee9f4aac)
 
 \*\***Influences of the design**\*\*
-We've designed a device that has an input and output mechanism - the input would be a light wearable like a watch or collar, or a remote control style stick and the output would be the device that someone else keeps in order to keep track of the wearer's or holder's mood. Our main concern is the look and feel of the output device. We wanted to go with a versatile yet aestethic design. 
+We've designed a device that has an input and output mechanism - the input would be a light wearable like a watch or collar, or a remote control style stick and the output would be the device that someone else keeps in order to keep track of the wearer's or holder's mood. Our main concern is the look and feel of the output device. 
 
-The output device would generally be stationary in order for the tracker to be able to view the 
+The output device would generally be stationary in order for the tracker to be able to view the person's or pet's mood while in a house etc. With that said, in our first two renditions of the device we thought to create a 'mini doll' version of the person or pet that's mood is being tracked. This plush toy has a screen where the mouth should be and the mouth color and shape change according to the person who's wearing the compatible device's mood. The figurine also has embedded speakers that output a noise or soung according to the mood. This device would be about the size of a small plush toy (easily left on a hard surface) and it's 'mouth' would be the changing light display. This device is optimal for those that spend lots of time at home (maybe they WFH) and like to know what's going on with their kids or pets while not with them. Since the setting of a desktop could be both a light and dim setting (when the room light is shut off) the display would react to the external lightsource and brighten/dim accordingly.
 
-In our first rendition of the device we thought to create a 'mini desktop oven' that people can look at if they're waiting on something in the oven while working at their desk. This device would be about the size of a tissue box (easily left on a desk) and it's 'window' would be the changing light display. This device is optimal for those that spend lots of time at their desks and want a trendy, functional addition to their desktop setting. Since the setting of a desktop could be both a light and dim setting (when the room light is shut off) the display would react to the external lightsource and brighten/dim accordingly.
-
-While we were sketching out the mini desktop oven the idea that someone might not be tied to their desks came up. So we decided to go with a wearable device as well. Creating a wearable mini oven would allow the user to walk around and travel while they wait on their food. We opted for an inconspicuous looking wristwatch which has oven components and who's face changes colors according to food readiness. This item would allow for a certain amount of flexibility when using and can prove functional to active people who often multitask. 
-
-The third design we went with is by far the most inconspicuous. We were thinking about people who live in small spaces, don't have a desk, or don't have room on their desk for a mini desktop oven. Our third design is a colored light that is integrated into a lamp. As with the other designs - the color of the light changes according to how ready the food is but this time the lamp is not a standalone device and turns into a lamp as long as their is nothing in the oven. This device lends to a clean asthetic, does not create clutter and looks like a regualar lamp when not in use.
+The other rendition of this device is a more inclusive design. This design is about the size and feel of a tissue-box and includes generic eyes and mouth window. This device also has a speaker embedded in it. It's purpose would be for someone who wants a more impersonal experience when tracking their loved ones, or wants a more versatile asthethic for a cleaner look. This design allows someone to leave their mood output device in their kitchen as it's easily cleanable and can even blend in with other appliances. 
 
 **Part F:**
-Case #1: https://drive.google.com/file/d/1N9OvEkTKgxR-1jIIMBJAYO4s8KuRIZj5/view?usp=share_link
-Case #2: https://drive.google.com/file/d/1YFfZgtwLKSR9MhbXnl2K2U_RPDxEmmC8/view?usp=share_link
+Case #1: https://drive.google.com/file/d/1N9OvEkTKgxR-1jIIMBJAYO4s8KuRIZj5/view?usp=share_link <br>
+Case #2: https://drive.google.com/file/d/1YFfZgtwLKSR9MhbXnl2K2U_RPDxEmmC8/view?usp=share_link<br>
 Case #3: https://drive.google.com/file/d/1NKW232A6ldwl9GEu-ZY5IpvQGlnWaW0h/view?usp=share_link
 
 
