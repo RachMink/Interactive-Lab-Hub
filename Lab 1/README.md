@@ -270,7 +270,7 @@ Storyboard #8:<br>
 - Instead of a sudden change of color for our couple mood prototype, maybe a slow ombre transition into a different color for a different mood, can help couples understand when their partner is about to feel or experience a specific mood and perhaps attend to their partner needs before they fully experience it. Kind of like knowing what your partner is feeling before they fully experience it. I imagine this can help mitigate a lot of situations in  a relationship.
 
 **Part E:**
-
+<br>
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![16150535-F32A-4BCB-A13E-67457C5387BF](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/1acbf55e-006c-40c6-802e-a250b162e9c6)
 
@@ -278,7 +278,7 @@ Storyboard #8:<br>
 
 ![DEC165F0-A5D4-4726-8B41-9C66D99CE499](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/6302e84e-9108-471c-bc12-002fee9f4aac)
 
-\*\***Influences of the design**\*\*
+\*\***Influences of the design**\*\*<br>
 We've designed a device that has an input and output mechanism - the input would be a light wearable like a watch or collar, or a remote control style stick and the output would be the device that someone else keeps in order to keep track of the wearer's or holder's mood. Our main concern is the look and feel of the output device. 
 
 The output device would generally be stationary in order for the tracker to be able to view the person's or pet's mood while in a house etc. With that said, in our first two renditions of the device we thought to create a 'mini doll' version of the person or pet that's mood is being tracked. This plush toy has a screen where the mouth should be and the mouth color and shape change according to the person who's wearing the compatible device's mood. The figurine also has embedded speakers that output a noise or soung according to the mood. This device would be about the size of a small plush toy (easily left on a hard surface) and it's 'mouth' would be the changing light display. This device is optimal for those that spend lots of time at home (maybe they WFH) and like to know what's going on with their kids or pets while not with them. Since the setting of a desktop could be both a light and dim setting (when the room light is shut off) the display would react to the external lightsource and brighten/dim accordingly.
@@ -286,7 +286,7 @@ The output device would generally be stationary in order for the tracker to be a
 The other rendition of this device is a more inclusive design. This design is about the size and feel of a tissue-box and includes generic eyes and mouth window. This device also has a speaker embedded in it. It's purpose would be for someone who wants a more impersonal experience when tracking their loved ones, or wants a more versatile asthethic for a cleaner look. This design allows someone to leave their mood output device in their kitchen as it's easily cleanable and can even blend in with other appliances. 
 
 **Part F:**
-
+<br>
 Case #1: https://drive.google.com/file/d/1N9OvEkTKgxR-1jIIMBJAYO4s8KuRIZj5/view?usp=share_link <br>
 Case #2: https://drive.google.com/file/d/1YFfZgtwLKSR9MhbXnl2K2U_RPDxEmmC8/view?usp=share_link<br>
 Case #3: https://drive.google.com/file/d/1NKW232A6ldwl9GEu-ZY5IpvQGlnWaW0h/view?usp=share_link
