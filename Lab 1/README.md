@@ -270,6 +270,7 @@ Storyboard #8:<br>
 - Instead of a sudden change of color for our couple mood prototype, maybe a slow ombre transition into a different color for a different mood, can help couples understand when their partner is about to feel or experience a specific mood and perhaps attend to their partner needs before they fully experience it. Kind of like knowing what your partner is feeling before they fully experience it. I imagine this can help mitigate a lot of situations in  a relationship.
 
 **Part E:**
+
 \*\***Include sketches of what your devices might look like here.**\*\*
 ![16150535-F32A-4BCB-A13E-67457C5387BF](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/1acbf55e-006c-40c6-802e-a250b162e9c6)
 
@@ -285,6 +286,7 @@ The output device would generally be stationary in order for the tracker to be a
 The other rendition of this device is a more inclusive design. This design is about the size and feel of a tissue-box and includes generic eyes and mouth window. This device also has a speaker embedded in it. It's purpose would be for someone who wants a more impersonal experience when tracking their loved ones, or wants a more versatile asthethic for a cleaner look. This design allows someone to leave their mood output device in their kitchen as it's easily cleanable and can even blend in with other appliances. 
 
 **Part F:**
+
 Case #1: https://drive.google.com/file/d/1N9OvEkTKgxR-1jIIMBJAYO4s8KuRIZj5/view?usp=share_link <br>
 Case #2: https://drive.google.com/file/d/1YFfZgtwLKSR9MhbXnl2K2U_RPDxEmmC8/view?usp=share_link<br>
 Case #3: https://drive.google.com/file/d/1NKW232A6ldwl9GEu-ZY5IpvQGlnWaW0h/view?usp=share_link
