@@ -229,11 +229,17 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+Instructions for use: 
+- the main logic code for this clock is in `astrology_clock.py` , please run `python screen_clock.py` to view the pur horoscope clock on the pi screen
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 [![Video](https://img.youtube.com/vi/stTStYaP5z0/0.jpg)](https://www.youtube.com/watch?v=stTStYaP5z0)
+<br>
+
+Here is a picture of what the clock looks like on September 11th 2023, as we are 61% through Virgo season:
+<img src="media/clockAndDate.jpg">
 
 **Please click to play @ Youtube**
 
