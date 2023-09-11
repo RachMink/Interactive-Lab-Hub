@@ -236,12 +236,12 @@ Instructions for use:
 ## Make a short video of your modified barebones PiClock
 
 [![Video](https://img.youtube.com/vi/stTStYaP5z0/0.jpg)](https://www.youtube.com/watch?v=stTStYaP5z0)
+**Please click to play @ Youtube**
 <br>
 
 Here is a picture of what the clock looks like on September 11th 2023, as we are 61% through Virgo season:
 <img src="media/clockAndDate.jpg">
 
-**Please click to play @ Youtube**
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
