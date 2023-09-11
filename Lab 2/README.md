@@ -236,6 +236,7 @@ Instructions for use:
 ## Make a short video of your modified barebones PiClock
 
 [![Video](https://img.youtube.com/vi/stTStYaP5z0/0.jpg)](https://www.youtube.com/watch?v=stTStYaP5z0)
+<br>
 **Please click to play @ Youtube**
 <br>
 
