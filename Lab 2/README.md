@@ -253,10 +253,6 @@ Run `screen_clock.py` in order for the clock to appear on the LCD screen. The ma
 ***Filmography by Jon Caceres***
 <br>
 
-Here is a picture of what the clock looks like on September 11th 2023, as we are 61% through Virgo season:
-<img src="media/clockAndDate.jpg">
-
-
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
