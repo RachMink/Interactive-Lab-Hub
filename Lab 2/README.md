@@ -216,9 +216,6 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 ***Museum artwork by Rachel Minkowitz***
 
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
-
-
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
@@ -242,6 +239,8 @@ We designed a 'zodiac clock' which ticks each day and shows the progress through
 **INSTRUCTIONS FOR USE**
 
 Run `screen_clock.py` in order for the clock to appear on the LCD screen. The main logic for our clock is located in `astrology_clock.py`
+
+***Some of our script was coded using the assistance of ChatGPT***
 
 
 ## Part F. 
