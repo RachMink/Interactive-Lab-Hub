@@ -231,6 +231,7 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+<<<<<<< HEAD
 **DESCRIPTION**
 
 We designed a 'zodiac clock' which ticks each day and shows the progress through the current Zodiac season. For example, the Virgo season in 2023 spans from August 23 to September 22. On September 11, we would be 63.33% through Virgo season, as shown in the fabulous image below:
@@ -243,13 +244,22 @@ We designed a 'zodiac clock' which ticks each day and shows the progress through
 
 Run `screen_clock.py` in order for the clock to appear on the LCD screen. The main logic for our clock is located in `astrology_clock.py`
 
+=======
+Instructions for use: 
+- the main logic code for this clock is in `astrology_clock.py` , please run `python screen_clock.py` to view the pur horoscope clock on the pi screen
+>>>>>>> 62106ecef79e842ad634e3b9b10402073ac6b91a
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 [![Video](https://img.youtube.com/vi/stTStYaP5z0/0.jpg)](https://www.youtube.com/watch?v=stTStYaP5z0)
-
+<br>
 **Please click to play @ Youtube**
+<br>
+
+Here is a picture of what the clock looks like on September 11th 2023, as we are 61% through Virgo season:
+<img src="media/clockAndDate.jpg">
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
