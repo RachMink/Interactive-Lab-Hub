@@ -1,5 +1,16 @@
 # Chatterboxes
-**NAMES OF COLLABORATORS HERE**
+
+**COLLABORATORS:**
+
+**Shai Aarons (sla88)**
+
+**Ariana Bhigroog (ab2959)**
+
+**Jon Caceres (jc3569)**
+
+**Rachel Minkowitz (rhm256)**
+
+**Amando Xu (ax45)**
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything *but* control lights (since we already did that in Lab 1).  First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond.  We then want you to use the examples collected from at least two other people to inform the redesign of the device.
@@ -133,17 +144,36 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+**Storyboard:**
+
+**ADD Storyboard HERE**
+
+**Verplank Diagram:**
+![IMG_1663](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/03afddab-939d-4905-baca-f334898717c4)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
 
+![UML Sequence Diagram](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/b4502328-1af8-49ba-afff-03d6ecfdf7df)
+
+1. User expresses how they feel to Spotipi
+   * "Ugh, SpotiPi I'm frustrated"
+2. SpotiPi asks the user if they want to maintain or uplift their current mood
+3. User responds to SpotiPi
+   * SpotiPi sends the user's response to GPT API. This parses user responses and returns the mood.
+4. SpotiPi responds by playing the user a track based on their mood.
+   * User mood is sent to Spotify API and returns a song that best fits the user's mood.
+
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+**ADD VIDEO HERE!**
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+The dialogue did not seem much different from what we imagined it to be when acted out. The flow of the interaction between the device and the user was smooth and in line with what we imagined it to be. However, one thing we noticed from our interaction was that there may be a potential issue if the user gives more than one input to SpotiPi. How would SpotiPi handle more complex speech against user interactions? For example, if a user says to SpotiPi "Ugh, I'm sad... wait no, actually I'm happy", would SpotiPi register the first or second input as the mood? Which one will SpotiPi choose to map back to a song?
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
