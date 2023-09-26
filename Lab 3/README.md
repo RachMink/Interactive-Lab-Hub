@@ -145,16 +145,16 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-**Storyboard:**
 
-**ADD Storyboard HERE**
+**Storyboard:**
+![IMG_6377](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/c2179bfb-5abf-4ad0-b2aa-ff8856c6b251)
+
 
 **Verplank Diagram:**
 ![IMG_1663](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/03afddab-939d-4905-baca-f334898717c4)
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+\*\***Describe and document your process.**\*\*
 
 ![UML Sequence Diagram](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/b4502328-1af8-49ba-afff-03d6ecfdf7df)
 
@@ -170,7 +170,9 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-**ADD VIDEO HERE!**
+**Recording:** 
+
+https://drive.google.com/file/d/1CsTcaqhqGRCiWhEwGoUZI8e1PQzRb178/view?usp=drivesdk
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
