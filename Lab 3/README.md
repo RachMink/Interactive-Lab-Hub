@@ -210,7 +210,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+
+We opted to work with the ChatGPT API to parse the spoken words into instructions. We chose ChatGPT as we were able to prompt it to filter out exactly the content that we wanted to know - whether someone wanted to listen to a specific song, artist, genre, or whether they were in a mood/feeling or whether the input they told us wasnt relevant to playing music at all. ChatGPT also allows the user to speak the widest bredth of information and then Chatty does the insinuation for us to get a specific song from the Spotify API.  
 
 ### What worked well about the controller and what didn't?
 
