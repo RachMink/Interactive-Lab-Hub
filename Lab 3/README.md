@@ -192,6 +192,7 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
    - Add a shuffle song feature if someone wants a new chosen song
    - use Youtube instead of Spotify API
    - There is a slight delay between the users speech input and the song output
+   - certain accents were not undeerstood when not annunciating the words
      
 3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
    - screen interface
