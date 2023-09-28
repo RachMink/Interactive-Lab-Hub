@@ -185,13 +185,22 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 # Lab 3 Part 2
 
-For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
-
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+   Answer:
+   - Add a shuffle song feature if someone wants a new chosen song
+   - use Youtube instead of Spotify API
+   - There is a slight delay between the users speech input and the song output
+     
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+   - screen interface
+     "speak now" 
+     "listening..."
+     "loading"
+     song representation
+     
+5. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 
