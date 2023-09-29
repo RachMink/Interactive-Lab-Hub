@@ -195,13 +195,16 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
    - certain accents were not undeerstood when not annunciating the words
      
 3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-   - screen interface
-     "speak now" 
-     "listening..."
-     "loading"
+   - Including a screen interface would be helpful to clarifying interactions screen flow could be:
+     "speak now" -> 
+     "listening..." -> 
+     "loading" -> 
      song representation
      
 5. Make a new storyboard, diagram and/or script based on these reflections.
+
+![IMG_1693 2](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/3542788f-0780-4160-8ecf-93776f713974)
+
 
 ## Prototype your system
 
