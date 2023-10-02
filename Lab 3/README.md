@@ -260,7 +260,7 @@ Answer the following:
 
 We opted to work with the ChatGPT API to parse the spoken words into instructions. We chose ChatGPT as we were able to prompt it to filter out exactly the content that we wanted to know - whether someone wanted to listen to a specific song, artist, genre, or whether they were in a mood/feeling or whether the input they told us wasnt relevant to playing music at all. ChatGPT also allows the user to speak the widest bredth of information and then Chatty does the insinuation for us to get a specific song from the Spotify API.  
 
-Note: We used GPT-3.5 for the API but noticed that it was repeating songs and not being as cerative as expected. We tested the spotipi out with GPT-4.0 which has more diverse responses but may be more 'volatile' so we opted to go with GPT-3.5 for the project.
+Note: We used GPT-3.5 for the API but noticed that it was repeating songs and not being as creative as expected. We tested the spotipi out with GPT-4.0 which is taught on more diverse dataset and which's temperature can be adjusted (the creativity level of it's responses).
 
 ### What worked well about the controller and what didn't?
 
