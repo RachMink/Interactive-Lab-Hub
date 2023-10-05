@@ -1,6 +1,10 @@
 # Ph-UI!!!
 
-**NAMES OF COLLABORATORS HERE**
+Shai Aarons,
+Ariana Bhigroog
+Jon Caceres
+Rachel Minkowitz
+Amando Xu
 
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
