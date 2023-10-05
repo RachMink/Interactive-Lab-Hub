@@ -34,6 +34,17 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 * [Dyson Vacuum Cardboard Prototypes](http://media.dyson.com/downloads/JDF/JDF_Prim_poster05.pdf)
 <p align="center"><img src="https://dysonthedesigner.weebly.com/uploads/2/6/3/9/26392736/427342_orig.jpg"  width="200" > </p>
 
+Brainstorming:
+Futurama Theme:
+- 3D print a Bender - arms move/eyes light up with interaction-> con: not enough time to 3D print Bender, not sure what the interaction is
+- 3D print Bender - gameify
+- Bender replica that sits on top of toilet and detects whether a user has flushed or not
+
+Harry Potter:
+- wizarding hat - the hat says something when they put the hat on
+
+- automatic dog bowl water dispenser - use the distance sensor to see whether the water bowl is finished
+
 ### Gathering materials for this lab:
 
 * Cardboard (start collecting those shipping boxes!)
