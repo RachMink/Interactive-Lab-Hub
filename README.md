@@ -10,7 +10,7 @@ for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Design
 
 [Lab 4. Ph-UI!!!](Lab%204/)
 
-Lab 5. Observant Systems
+[Lab 5. Observant Systems](Lab%205/)
 
 Lab 6. Little Interactions Everywhere
 
