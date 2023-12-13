@@ -1,8 +1,17 @@
 
-
 # Staging Interaction
 
-**COLLABORATORS: Rachel Minkowitz(rhm256), Shai Aarons(sla88), Jon Caceres(jc3569), Ariana Bhigroog(ab2959), Amando Xu(ax45)**
+**COLLABORATORS:**
+
+**Shai Aarons (sla88)**
+
+**Ariana Bhigroog (ab2959)**
+
+**Jon Caceres (jc3569)**
+
+**Rachel Minkowitz (rhm256)**
+
+**Amando Xu (ax45)**
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -270,8 +279,10 @@ Storyboard #8:<br>
 - Instead of a sudden change of color for our couple mood prototype, maybe a slow ombre transition into a different color for a different mood, can help couples understand when their partner is about to feel or experience a specific mood and perhaps attend to their partner needs before they fully experience it. Kind of like knowing what your partner is feeling before they fully experience it. I imagine this can help mitigate a lot of situations in  a relationship.
 
 **Part D: Wizarding**
-link to video: https://drive.google.com/file/d/1bWOX8KXgtKtjn_A96WFcQdO8k17_xp1A/view?usp=share_link
+
+link to wizarding video: https://drive.google.com/file/d/1bWOX8KXgtKtjn_A96WFcQdO8k17_xp1A/view?usp=share_link<br>
 disclaimer:  this video does not include the sound effects included in our device
+
 **Part E:**
 <br>
 \*\***Include sketches of what your devices might look like here.**\*\*
