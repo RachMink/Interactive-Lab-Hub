@@ -271,7 +271,7 @@ disclaimer:  this video does not include the sound effects included in our devic
 <br>
 **Sketches:**
 
-<img src="https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/1acbf55e-006c-40c6-802e-a250b162e9c6" width="500"> <br><br>
+<img src="https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/892dca89-aeee-44fd-9702-344d8f87cc50" width="500"> <br><br>
 <img src="https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/3ee6f533-da9b-44c0-a5c0-e4c77d6d05a1" width="500"> <br><br>
 <img src="https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/6302e84e-9108-471c-bc12-002fee9f4aac" width="500">
 
