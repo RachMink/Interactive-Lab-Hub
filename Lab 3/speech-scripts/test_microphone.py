@@ -70,7 +70,7 @@ try:
     buffered_text = []
     spoken = False
 
-    with sd.RawInputStream(samplerate=args.samplerate, blocksize = 8000, device=args.device,
+    with sd.RawInputStream(samplerate=args.samplerate, blocksize=8000, device=args.device,
             dtype="int16", channels=1, callback=callback):
         print("#" * 80)
         print("Press Ctrl+C to stop the recording")
@@ -97,7 +97,7 @@ try:
 
             if dump_fn is not None:
                 dump_fn.write(data)
-    
+
     print("Recorded Text:", ' '.join(buffered_text))
 
 except KeyboardInterrupt:

@@ -78,7 +78,9 @@ Typically, a `.sh` file is a shell script which you can execute in a terminal. T
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-The file for this is `greet_Rachel.sh` inside of `Lab 3`
+
+The file for this is `speak_jon.sh` inside of `Lab 3`
+
 
 ---
 Bonus:
@@ -123,6 +125,7 @@ python test_microphone.py -m en
 
 The file for this is located in `speech-scripts\ask_user.sh` -- it uses a modified version of `test_microphone.py`
 
+
 ### Serving Pages
 
 In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
@@ -139,16 +142,17 @@ pi@ixe00:~/Interactive-Lab-Hub/Lab 3 $ python server.py
  * Debugger is active!
  * Debugger PIN: 162-573-883
 ```
+
 From a remote browser on the same network, check to make sure your webserver is working by going to `http://<YourPiIPAddress>:5000`. You should be able to see "Hello World" on the webpage.
 
-### Storyboard
+# Lab 3 Part 1
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
+## Storyboard
 
+Storyboard and/or use a Verplank diagram to design a speech-enabled device.
 
 **Storyboard:**
-![IMG_6377](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/c2179bfb-5abf-4ad0-b2aa-ff8856c6b251)
-
+![IMG_1663](./storyboard.png)
 
 **Verplank Diagram:**
 ![IMG_1663](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/03afddab-939d-4905-baca-f334898717c4)
@@ -159,52 +163,39 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 ![UML Sequence Diagram](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/b4502328-1af8-49ba-afff-03d6ecfdf7df)
 
 1. User expresses how they feel to Spotipi
-   * "Ugh, SpotiPi I'm frustrated"
+    * "Ugh, SpotiPi I'm frustrated"
 2. SpotiPi asks the user if they want to maintain or uplift their current mood
 3. User responds to SpotiPi
-   * SpotiPi sends the user's response to GPT API. This parses user responses and returns the mood.
+    * SpotiPi sends the user's response to GPT API. This parses user responses and returns the mood.
 4. SpotiPi responds by playing the user a track based on their mood.
-   * User mood is sent to Spotify API and returns a song that best fits the user's mood.
+    * User mood is sent to Spotify API and returns a song that best fits the user's mood.
 
-### Acting out the dialogue
+## Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
-
-**Recording:** 
+**Recording:**
 
 https://drive.google.com/file/d/1CsTcaqhqGRCiWhEwGoUZI8e1PQzRb178/view?usp=drivesdk
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-The dialogue did not seem much different from what we imagined it to be when acted out. The flow of the interaction between the device and the user was smooth and in line with what we imagined it to be. However, one thing we noticed from our interaction was that there may be a potential issue if the user gives more than one input to SpotiPi. How would SpotiPi handle more complex speech against user interactions? For example, if a user says to SpotiPi "Ugh, I'm sad... wait no, actually I'm happy", would SpotiPi register the first or second input as the mood? Which one will SpotiPi choose to map back to a song?
+**Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**
 
-### Wizarding with the Pi (optional)
+* The dialogue did not seem much different from what we imagined it to be when acted out. The flow of the interaction between the device and the user was smooth and in line with what we imagined it to be. However, one thing we noticed from our interaction was that there may be a potential issue if the user gives more than one input to SpotiPi. How would SpotiPi handle more complex speech against user interactions? For example, if a user says to SpotiPi "Ugh, I'm sad... wait no, actually I'm happy", would SpotiPi register the first or second input as the mood? Which one will SpotiPi choose to map back to a song.
+
+## Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
 # Lab 3 Part 2
 
+For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
+
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-   Answer:
-   - Add a shuffle song feature if someone wants a new chosen song
-   - use Youtube instead of Spotify API
-   - There is a slight delay between the users speech input and the song output
-   - certain accents were not undeerstood when not annunciating the words
-     
-3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-   - Including a screen interface would be helpful to clarifying interactions screen flow could be:
-     "speak now" -> 
-     "listening..." -> 
-     "loading" -> 
-     song representation
-     
-5. Make a new storyboard, diagram and/or script based on these reflections.
-
-![IMG_1693 2](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/3542788f-0780-4160-8ecf-93776f713974)
-
+2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 
@@ -215,8 +206,8 @@ The system should:
 
 # Documentation
 
-![new-diagram](https://github.com/RachMink/Interactive-Lab-Hub/assets/82296790/c1176b27-e0c2-4b5b-90d1-36bdb3c2ac2b)
 
+![UML Sequence Diagram](new-diagram.jpg)
 
 ## Imports and Dependencies
 
@@ -234,8 +225,6 @@ The system should:
 
 The system integrates the Vosk toolkit for offline speech recognition and utilizes OpenAI's GPT model to process and understand user input. The primary functionality involves interpreting user requests to either play specific songs or provide songs based on expressed moods. Google's YouTube API is used to query a song and play the audio back to the user while also playing the video on the display.
 
-**please refer to [Jon's repo](https://github.com/ironclock/Interactive-Lab-Hub/tree/Fall2023/Lab%203) for the fully updated code.** 
-
 **Workflow**
 
 1. User Interaction: The user communicates with the Raspberry Pi, indicating a mood or specifying a song.
@@ -248,8 +237,7 @@ The system integrates the Vosk toolkit for offline speech recognition and utiliz
 
 The program is designed to interpret user input and either provide the most relevant song based on the user's mood or directly play a song being requested.
 
-[*Include videos or screencaptures of both the system and the controller.*](https://drive.google.com/file/d/1PsUR1HKVEBgOHcPKx1PeNs7HyLjAHvFd/view)
-
+[*Include videos or screencaptures of both the system and the controller.*](https://drive.google.com/file/d/1N2bTheywNG519HbHWdE2rQMpZ0_qjqzU/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
