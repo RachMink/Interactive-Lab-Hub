@@ -18,24 +18,6 @@ For lab this week, we focus both on sensing, to bring in new modes of input into
 
 ## Part 1 Lab Preparation
 
-### Get the latest content:
-As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
-
-
-Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the personal access token for this.
-
-```
-pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
-pi@ixe00:~/Interactive-Lab-Hub $ git add .
-pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab4 content"
-pi@ixe00:~/Interactive-Lab-Hub $ git push
-```
-
-Option 2: On your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
-
-Option 3: (preferred) use the Github.com interface to update the changes.
-
 ### Start brainstorming ideas by reading: 
 * [What do prototypes prototype?](https://www.semanticscholar.org/paper/What-do-Prototypes-Prototype-Houde-Hill/30bc6125fab9d9b2d5854223aeea7900a218f149)
 * [Paper prototyping](https://www.uxpin.com/studio/blog/paper-prototyping-the-practical-beginners-guide/) is used by UX designers to quickly develop interface ideas and run them by people before any programming occurs. 
@@ -56,7 +38,7 @@ Option 3: (preferred) use the Github.com interface to update the changes.
 
 (We do offer shared cutting board, cutting tools, and markers on the class cart during the lab, so do not worry if you don't have them!)
 
-## Deliverables \& Submission for Lab 4
+## Deliverables & Submission for Lab 4
 
 The deliverables for this lab are, writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
@@ -191,17 +173,18 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proxi
 
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 ***
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
-![IMG_1850](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/2212746b-5014-42a7-8a69-3ee00764dcda)
-![IMG_597B08AD62C9-1](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/7735b522-4ed4-4168-9ee0-bfd7f86b81ca)
-![IMG_1415F3FC91E8-1](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/1d47144b-3e62-4bca-9193-3612ebfcdf18)
-![IMG_C1EA1637EF37-1](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/6bb43e0d-582c-4893-b047-52a4d8f790d8)
-![IMG_F418F5AA2FBE-1](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/22d9b36e-ec37-4776-9efc-4a14f310b663)
+**5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.**
+
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/2212746b-5014-42a7-8a69-3ee00764dcda">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/7735b522-4ed4-4168-9ee0-bfd7f86b81ca">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/1d47144b-3e62-4bca-9193-3612ebfcdf18">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/6bb43e0d-582c-4893-b047-52a4d8f790d8">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/22d9b36e-ec37-4776-9efc-4a14f310b663">
 
 
 
 ***
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?\*\*\***
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to answer those questions?***
 
 There were a few sensors we wanted to consider for this lab. 
 
@@ -250,7 +233,7 @@ Sandwich Selector: Test a functional joystick and feedback mechanism that would 
 Bruno Bowl: Test spout and sensor interaction through a functioning spout mechanism integrated with a sensor.
 
 ***
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+**Pick one of these designs to prototype.**
 
 ![bender picture](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/63d0f2a6-9443-4fbd-92e9-85be597f2cf8)
 
@@ -264,42 +247,10 @@ After brainstorming several designs we decided to go with a home security concep
 ### Part D
 ### Physical considerations for displaying information and housing parts
 
-
-Here is a Pi with a paper faceplate on it to turn it into a display interface:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/paper_if.png?raw=true"  width="250"/>
-
-
-This is fine, but the mounting of the display constrains the display location and orientation a lot. Also, it really only works for applications where people can come and stand over the Pi, or where you can mount the Pi to the wall.
-
-Here is another prototype for a paper display:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/b_box.png?raw=true"  width="250"/>
-
-Your kit includes these [SparkFun Qwiic OLED screens](https://www.sparkfun.com/products/17153). These use less power than the MiniTFTs you have mounted on the GPIO pins of the Pi, but, more importantly, they can be more flexibly mounted elsewhere on your physical interface. The way you program this display is almost identical to the way you program a  Pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-</p>
-
-
-It holds a Pi and usb power supply, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
-
-This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
-
-| Y height of box <br> <sub><sup>- thickness of cardboard</sup></sub> | Z  depth of box <br><sub><sup>- thickness of cardboard</sup></sub> | Y height of box  | Z  depth of box | H height of faceplate <br><sub><sup>* * * * * (don't make this too short) * * * * *</sup></sub>|
-| --- | --- | --- | --- | --- | 
-
-Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Here is an example:
-
-<img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
-
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
 
 ***
-**\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+**Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.**
 
 <img width="352" alt="Screen Shot 2023-10-10 at 4 21 33 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/0382c948-875d-43fa-a219-f365448f5e26"><br>
 
@@ -313,7 +264,7 @@ Think about how you want to present the information about what your sensor is se
 
 
 ***
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+**What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?**
 
 These sketches raised concerns about how to possibly 3D print this device for our actual implementation in the second part of the lab. We designed a 3D version equivalent and realized we had to scale down our model to have this built in a realistic timeframe. We had to place certain sensors that we planned to use in different places to see which made the most sense. For our final physical prototype, we have to create a frame that would be the same size as the raspberry pi and the various sensors to decide where the parts most logically make sense to placed physically. Here are some further questions that were raised:
 
@@ -325,7 +276,7 @@ These sketches raised concerns about how to possibly 3D print this device for ou
 6) We realized in the sketches and prototyping that the device would have a blind spot behind the head. Because of this, we have decided to potentially use the microphone as an additional sensor to detect noises 
 
 ***
-**\*\*\*Explain the rationale for the design.\*\*\*** 
+**Rationale for the design.** 
 Bender has several features that we thought would go well with home security. It has two eyes which could be used as sensors to detect motion (although we will be using a camera and inserting it into his mouth for this purpose). We will be using laser diodes that will be inserted into his eyes and will emit a laser when motion is detected. We will also use the speaker for Bender to alert the user when he's detected them.
 
 Bender will have 3 modes: standby mode, patrol mode, and alarm mode.
@@ -340,9 +291,11 @@ In Patrol Mode, Bender will be constantly and slowly rotating 360 degrees on a p
 In Alarm Mode, lasers will be flashing from Bender's eyes and he will be speaking to the user as well. Noises and other sounds may also be playing.
 
 ***
-**\*\*\*Prototype\*\*\***
-![IMG_6525](https://github.com/ironclock/Interactive-Lab-Hub/assets/70418227/580a9adf-7d89-4f18-81ff-91d3a5c1aff1)
-![IMG_6526](https://github.com/ironclock/Interactive-Lab-Hub/assets/70418227/eabf941d-3234-462f-a3a6-6f9cecf507d6)
+**Prototype**
+
+<img width="400" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/70418227/580a9adf-7d89-4f18-81ff-91d3a5c1aff1">
+<img width="400" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/70418227/eabf941d-3234-462f-a3a6-6f9cecf507d6">
+
 
 Our cardboard prototype proved helpful to discuss where each sensor would be placed. 
 - We wanted to camera to be inconspicuous and therefore was places inside Bender's mouth - where a space was cut out precisely for this purpose. 
@@ -353,15 +306,13 @@ Our cardboard prototype proved helpful to discuss where each sensor would be pla
 
 
 ***
-**\*\*\*Process\*\*\***
-![IMG_1853](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/341298c8-6135-4ccd-848e-17f84d2bd471)
-<img width="918" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/a01a0212-6c8d-4152-b028-7f484a89c832">
-<img width="917" alt="Screen Shot 2023-10-10 at 4 23 11 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/534bc787-1745-465a-85bc-21ab2c9df6d2">
+**Process**
+
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/341298c8-6135-4ccd-848e-17f84d2bd471">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 22 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/a01a0212-6c8d-4152-b028-7f484a89c832">
+<img width="352" alt="Screen Shot 2023-10-10 at 4 23 11 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/534bc787-1745-465a-85bc-21ab2c9df6d2">
 <img width="352" alt="Screen Shot 2023-10-10 at 4 31 43 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/7b4d1c03-04c1-4c0c-9925-7efc32792d37">
 
-
-
-LAB PART 2
 
 ### Part 2
 
@@ -427,8 +378,8 @@ Bender Security is a unique and playful security device designed to protect your
 
 **1. Looks Like**
 
-![71917759063__B1B7C36F-3D67-4EA0-9CF0-68702A7C610B](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/94b81d2f-83a0-4e05-9113-ecb628a61332)
-![PNG image](https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/267fceb4-ebd7-43e3-bdad-babf7b5c97ec)
+<img width="525" alt="Screen Shot 2023-10-19 at 2 07 04 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/94b81d2f-83a0-4e05-9113-ecb628a61332">
+<img width="525" alt="Screen Shot 2023-10-19 at 2 07 04 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/267fceb4-ebd7-43e3-bdad-babf7b5c97ec">
 <img width="525" alt="Screen Shot 2023-10-19 at 2 07 04 PM" src="https://github.com/ironclock/Interactive-Lab-Hub/assets/82296790/70ceacec-c9d8-4366-8898-24fbafd1f996">
 
 
