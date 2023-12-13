@@ -19,27 +19,7 @@ We will focus on **audio** as the main modality for interaction to start; these 
 
 ## Prep for Part 1: Get the Latest Content and Pick up Additional Parts 
 
-### Pick up Web Camera If You Don't Have One
-
-Students who have not already received a web camera will receive their [IMISES web cameras](https://www.amazon.com/Microphone-Speaker-Balance-Conference-Streaming/dp/B0B7B7SYSY/ref=sr_1_3?keywords=webcam%2Bwith%2Bmicrophone%2Band%2Bspeaker&qid=1663090960&s=electronics&sprefix=webcam%2Bwith%2Bmicrophone%2Band%2Bsp%2Celectronics%2C123&sr=1-3&th=1) on Thursday at the beginning of lab. If you cannot make it to class on Thursday, please contact the TAs to ensure you get your web camera. 
-
 **Please note:** connect the webcam/speaker/microphone while the pi is *off*. 
-
-### Get the Latest Content
-
-As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. There are 2 ways you can do so:
-
-**\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
-
-```
-pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2022
-pi@ixe00:~/Interactive-Lab-Hub $ git add .
-pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
-pi@ixe00:~/Interactive-Lab-Hub $ git push
-```
-
-Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2022Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
 
 ## Part 1.
 ### Setup 
@@ -158,7 +138,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device.
 ![IMG_1663](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/03afddab-939d-4905-baca-f334898717c4)
 
 
-\*\***Describe and document your process.**\*\*
+**Describe and document your process.**
 
 ![UML Sequence Diagram](https://github.com/arianab68/Interactive-Lab-Hub/assets/70418227/b4502328-1af8-49ba-afff-03d6ecfdf7df)
 
@@ -176,16 +156,9 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device.
 
 https://drive.google.com/file/d/1CsTcaqhqGRCiWhEwGoUZI8e1PQzRb178/view?usp=drivesdk
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
-
 **Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**
 
 * The dialogue did not seem much different from what we imagined it to be when acted out. The flow of the interaction between the device and the user was smooth and in line with what we imagined it to be. However, one thing we noticed from our interaction was that there may be a potential issue if the user gives more than one input to SpotiPi. How would SpotiPi handle more complex speech against user interactions? For example, if a user says to SpotiPi "Ugh, I'm sad... wait no, actually I'm happy", would SpotiPi register the first or second input as the mood? Which one will SpotiPi choose to map back to a song.
-
-## Wizarding with the Pi (optional)
-In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
-
-\*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
 # Lab 3 Part 2
 
@@ -206,11 +179,9 @@ The system should:
 
 # Documentation
 
-
 ![UML Sequence Diagram](new-diagram.jpg)
 
 ## Imports and Dependencies
-
 * json: Used to read API keys from keys.json and to convert OpenAI responses into JSON objects for Python processing.
 * vlc: Utilized for streaming audio content from YouTube.
 * yt_dlp: Enables the download of YouTube videos for subsequent streaming via VLC.
@@ -219,7 +190,7 @@ The system should:
 * requests: Facilitates communication with OpenAI's API.
 * Enum: Defines Enum classes for structured data representation.
 
-## How-To Guide/Instructions
+## How-To Guide
 
 **System Overview**
 
@@ -237,7 +208,7 @@ The system integrates the Vosk toolkit for offline speech recognition and utiliz
 
 The program is designed to interpret user input and either provide the most relevant song based on the user's mood or directly play a song being requested.
 
-[*Include videos or screencaptures of both the system and the controller.*](https://drive.google.com/file/d/1N2bTheywNG519HbHWdE2rQMpZ0_qjqzU/view?usp=sharing)
+[*Video of spotipi*](https://drive.google.com/file/d/1RV8TpN7dgD6HKtme_-WtPvsOnLh8z1bB/view?usp=sharing)
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
