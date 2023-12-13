@@ -14,6 +14,6 @@ for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Design
 
 [Lab 6. Little Interactions Everywhere](Lab%206/)
 
-[Final Project](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2023Fall/FinalProject.md)
+[Final Project](https://github.com/ironclock/Developing-and-Designing-Interactive-Devices/blob/2023Fall/FinalProject.md)
 
 [Online Repository](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2023Fall/FinalProject.md)
